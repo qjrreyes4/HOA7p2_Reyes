@@ -1,0 +1,52 @@
+2024-03-07 16:45:11.365 2668 WARNING nova.service [-] Running nova-osapi_compute using eventlet is deprecated. Deploy with a WSGI server such as uwsgi or mod_wsgi.
+2024-03-07 16:45:13.657 2668 WARNING oslo_config.cfg [-] Deprecated: Option "auth_strategy" from group "api" is deprecated for removal (
+The only non-default choice, ``noauth2``, is for internal development and
+testing purposes only and should not be used in deployments. This option and
+its middleware, NoAuthMiddleware[V2_18], will be removed in a future release.
+).  Its value may be silently ignored in the future.
+2024-03-07 16:45:13.844 2668 WARNING keystonemiddleware.auth_token [-] AuthToken middleware is set with keystone_authtoken.service_token_roles_required set to False. This is backwards compatible but deprecated behaviour. Please set this to True.
+2024-03-07 16:45:13.845 2668 WARNING keystonemiddleware.auth_token [-] Use of the auth_admin_prefix, auth_host, auth_port, auth_protocol, identity_uri, admin_token, admin_user, admin_password, and admin_tenant_name configuration options was deprecated in the Mitaka release in favor of an auth_plugin and its related options. This class may be removed in a future release.
+2024-03-07 16:45:13.845 2668 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments was deprecated in the Kilo release, and will be removed in the Newton release, use 'identity_uri' instead.
+2024-03-07 16:45:13.847 2668 WARNING keystonemiddleware.auth_token [-] Configuring www_authenticate_uri to point to the public identity endpoint is required; clients may not be able to authenticate against an admin endpoint
+2024-03-07 16:45:14.055 2668 WARNING keystonemiddleware.auth_token [-] AuthToken middleware is set with keystone_authtoken.service_token_roles_required set to False. This is backwards compatible but deprecated behaviour. Please set this to True.
+2024-03-07 16:45:14.056 2668 WARNING keystonemiddleware.auth_token [-] Use of the auth_admin_prefix, auth_host, auth_port, auth_protocol, identity_uri, admin_token, admin_user, admin_password, and admin_tenant_name configuration options was deprecated in the Mitaka release in favor of an auth_plugin and its related options. This class may be removed in a future release.
+2024-03-07 16:45:14.056 2668 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments was deprecated in the Kilo release, and will be removed in the Newton release, use 'identity_uri' instead.
+2024-03-07 16:45:14.057 2668 WARNING keystonemiddleware.auth_token [-] Configuring www_authenticate_uri to point to the public identity endpoint is required; clients may not be able to authenticate against an admin endpoint
+2024-03-07 16:45:14.066 2668 INFO nova.wsgi [-] osapi_compute listening on 0.0.0.0:8774
+2024-03-07 16:45:14.066 2668 INFO oslo_service.service [-] Starting 3 workers
+2024-03-07 16:45:14.081 2668 WARNING nova.service [-] Running nova-metadata using eventlet is deprecated. Deploy with a WSGI server such as uwsgi or mod_wsgi.
+2024-03-07 16:45:15.668 2705 INFO nova.osapi_compute.wsgi.server [req-25fe4f59-155c-492d-8faa-3892c99aeb2b - - - - -] (2705) wsgi starting up on http://0.0.0.0:8774
+2024-03-07 16:45:15.744 2668 INFO nova.wsgi [-] metadata listening on 0.0.0.0:8775
+2024-03-07 16:45:15.745 2668 INFO oslo_service.service [-] Starting 3 workers
+2024-03-07 16:45:15.741 2704 INFO nova.osapi_compute.wsgi.server [req-534d9335-76ef-4b93-9594-c112c31743db - - - - -] (2704) wsgi starting up on http://0.0.0.0:8774
+2024-03-07 16:45:15.824 2706 INFO nova.osapi_compute.wsgi.server [req-1d446cfb-44d7-4d24-ac6f-6ef0109a4bbb - - - - -] (2706) wsgi starting up on http://0.0.0.0:8774
+2024-03-07 16:45:15.830 2668 WARNING oslo_config.cfg [-] Deprecated: Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2024-03-07 16:45:16.331 2711 INFO nova.metadata.wsgi.server [req-e2dcb63c-fe6e-4e15-9ccb-3c6ba22c1352 - - - - -] (2711) wsgi starting up on http://0.0.0.0:8775
+2024-03-07 16:45:16.462 2710 INFO nova.metadata.wsgi.server [req-abf8f346-8314-4f8e-b3e2-f066e70ce36e - - - - -] (2710) wsgi starting up on http://0.0.0.0:8775
+2024-03-07 16:45:17.257 2712 INFO nova.metadata.wsgi.server [req-e6c2375f-8bda-4dbc-a704-ba69ccaca156 - - - - -] (2712) wsgi starting up on http://0.0.0.0:8775
+2024-03-07 18:55:46.118 2621 WARNING nova.service [-] Running nova-osapi_compute using eventlet is deprecated. Deploy with a WSGI server such as uwsgi or mod_wsgi.
+2024-03-07 18:55:49.285 2621 WARNING oslo_config.cfg [-] Deprecated: Option "auth_strategy" from group "api" is deprecated for removal (
+The only non-default choice, ``noauth2``, is for internal development and
+testing purposes only and should not be used in deployments. This option and
+its middleware, NoAuthMiddleware[V2_18], will be removed in a future release.
+).  Its value may be silently ignored in the future.
+2024-03-07 18:55:50.015 2621 WARNING keystonemiddleware.auth_token [-] AuthToken middleware is set with keystone_authtoken.service_token_roles_required set to False. This is backwards compatible but deprecated behaviour. Please set this to True.
+2024-03-07 18:55:50.016 2621 WARNING keystonemiddleware.auth_token [-] Use of the auth_admin_prefix, auth_host, auth_port, auth_protocol, identity_uri, admin_token, admin_user, admin_password, and admin_tenant_name configuration options was deprecated in the Mitaka release in favor of an auth_plugin and its related options. This class may be removed in a future release.
+2024-03-07 18:55:50.016 2621 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments was deprecated in the Kilo release, and will be removed in the Newton release, use 'identity_uri' instead.
+2024-03-07 18:55:50.017 2621 WARNING keystonemiddleware.auth_token [-] Configuring www_authenticate_uri to point to the public identity endpoint is required; clients may not be able to authenticate against an admin endpoint
+2024-03-07 18:55:50.348 2621 WARNING keystonemiddleware.auth_token [-] AuthToken middleware is set with keystone_authtoken.service_token_roles_required set to False. This is backwards compatible but deprecated behaviour. Please set this to True.
+2024-03-07 18:55:50.349 2621 WARNING keystonemiddleware.auth_token [-] Use of the auth_admin_prefix, auth_host, auth_port, auth_protocol, identity_uri, admin_token, admin_user, admin_password, and admin_tenant_name configuration options was deprecated in the Mitaka release in favor of an auth_plugin and its related options. This class may be removed in a future release.
+2024-03-07 18:55:50.349 2621 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments was deprecated in the Kilo release, and will be removed in the Newton release, use 'identity_uri' instead.
+2024-03-07 18:55:50.351 2621 WARNING keystonemiddleware.auth_token [-] Configuring www_authenticate_uri to point to the public identity endpoint is required; clients may not be able to authenticate against an admin endpoint
+2024-03-07 18:55:50.360 2621 INFO nova.wsgi [-] osapi_compute listening on 0.0.0.0:8774
+2024-03-07 18:55:50.361 2621 INFO oslo_service.service [-] Starting 3 workers
+2024-03-07 18:55:50.374 2621 WARNING nova.service [-] Running nova-metadata using eventlet is deprecated. Deploy with a WSGI server such as uwsgi or mod_wsgi.
+2024-03-07 18:55:50.552 2621 INFO nova.wsgi [-] metadata listening on 0.0.0.0:8775
+2024-03-07 18:55:50.552 2621 INFO oslo_service.service [-] Starting 3 workers
+2024-03-07 18:55:51.278 2621 WARNING oslo_config.cfg [-] Deprecated: Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2024-03-07 18:55:51.435 2782 INFO nova.osapi_compute.wsgi.server [req-0bb3daba-ae65-4153-b052-9e746cfc74a5 - - - - -] (2782) wsgi starting up on http://0.0.0.0:8774
+2024-03-07 18:55:51.454 2784 INFO nova.osapi_compute.wsgi.server [req-d700c84a-d4ba-4539-aedd-8bfc1c3e217e - - - - -] (2784) wsgi starting up on http://0.0.0.0:8774
+2024-03-07 18:55:51.491 2787 INFO nova.metadata.wsgi.server [req-0cf2f2ab-6fa5-47d8-aaa9-139fd00fab64 - - - - -] (2787) wsgi starting up on http://0.0.0.0:8775
+2024-03-07 18:55:51.511 2783 INFO nova.osapi_compute.wsgi.server [req-584fd9af-9d9b-4d68-87a1-2a116b05e8d4 - - - - -] (2783) wsgi starting up on http://0.0.0.0:8774
+2024-03-07 18:55:51.548 2785 INFO nova.metadata.wsgi.server [req-b0e13c64-990a-468c-9d92-79b458973ebc - - - - -] (2785) wsgi starting up on http://0.0.0.0:8775
+2024-03-07 18:55:51.666 2786 INFO nova.metadata.wsgi.server [req-626edad8-2062-4921-8577-afc110d3a8e2 - - - - -] (2786) wsgi starting up on http://0.0.0.0:8775

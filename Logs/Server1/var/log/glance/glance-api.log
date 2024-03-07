@@ -1,0 +1,54 @@
+2024-03-07 16:45:12.124 2667 INFO glance.async_ [-] Threadpool model set to 'EventletThreadPoolModel'
+2024-03-07 16:45:17.657 2667 WARNING keystonemiddleware.auth_token [-] AuthToken middleware is set with keystone_authtoken.service_token_roles_required set to False. This is backwards compatible but deprecated behaviour. Please set this to True.
+2024-03-07 16:45:18.518 2667 ERROR stevedore.extension [-] Could not load 'glance.store.s3.Store': No module named 'boto3': ModuleNotFoundError: No module named 'boto3'
+2024-03-07 16:45:18.593 2667 ERROR stevedore.extension [-] Could not load 's3': No module named 'boto3': ModuleNotFoundError: No module named 'boto3'
+2024-03-07 16:45:18.599 2667 WARNING oslo_config.cfg [-] Deprecated: Option "stores" from group "glance_store" is deprecated for removal (
+This option is deprecated against new config option
+``enabled_backends`` which helps to configure multiple backend stores
+of different schemes.
+
+This option is scheduled for removal in the U development
+cycle.
+).  Its value may be silently ignored in the future.
+2024-03-07 16:45:18.601 2667 WARNING oslo_config.cfg [-] Deprecated: Option "default_store" from group "glance_store" is deprecated for removal (
+This option is deprecated against new config option
+``default_backend`` which acts similar to ``default_store`` config
+option.
+
+This option is scheduled for removal in the U development
+cycle.
+).  Its value may be silently ignored in the future.
+2024-03-07 16:45:18.603 2667 INFO glance.common.wsgi [-] Starting 3 workers
+2024-03-07 16:45:18.611 2667 INFO glance.common.wsgi [-] Started child 2723
+2024-03-07 16:45:18.625 2667 INFO glance.common.wsgi [-] Started child 2724
+2024-03-07 16:45:18.634 2667 INFO glance.common.wsgi [-] Started child 2725
+2024-03-07 16:45:18.636 2723 INFO eventlet.wsgi.server [-] (2723) wsgi starting up on http://0.0.0.0:9292
+2024-03-07 16:45:18.651 2725 INFO eventlet.wsgi.server [-] (2725) wsgi starting up on http://0.0.0.0:9292
+2024-03-07 16:45:18.659 2724 INFO eventlet.wsgi.server [-] (2724) wsgi starting up on http://0.0.0.0:9292
+2024-03-07 18:55:44.452 2620 INFO glance.async_ [-] Threadpool model set to 'EventletThreadPoolModel'
+2024-03-07 18:55:47.334 2620 WARNING keystonemiddleware.auth_token [-] AuthToken middleware is set with keystone_authtoken.service_token_roles_required set to False. This is backwards compatible but deprecated behaviour. Please set this to True.
+2024-03-07 18:55:48.422 2620 ERROR stevedore.extension [-] Could not load 'glance.store.s3.Store': No module named 'boto3': ModuleNotFoundError: No module named 'boto3'
+2024-03-07 18:55:48.502 2620 ERROR stevedore.extension [-] Could not load 's3': No module named 'boto3': ModuleNotFoundError: No module named 'boto3'
+2024-03-07 18:55:48.508 2620 WARNING oslo_config.cfg [-] Deprecated: Option "stores" from group "glance_store" is deprecated for removal (
+This option is deprecated against new config option
+``enabled_backends`` which helps to configure multiple backend stores
+of different schemes.
+
+This option is scheduled for removal in the U development
+cycle.
+).  Its value may be silently ignored in the future.
+2024-03-07 18:55:48.510 2620 WARNING oslo_config.cfg [-] Deprecated: Option "default_store" from group "glance_store" is deprecated for removal (
+This option is deprecated against new config option
+``default_backend`` which acts similar to ``default_store`` config
+option.
+
+This option is scheduled for removal in the U development
+cycle.
+).  Its value may be silently ignored in the future.
+2024-03-07 18:55:48.512 2620 INFO glance.common.wsgi [-] Starting 3 workers
+2024-03-07 18:55:48.521 2620 INFO glance.common.wsgi [-] Started child 2745
+2024-03-07 18:55:48.548 2745 INFO eventlet.wsgi.server [-] (2745) wsgi starting up on http://0.0.0.0:9292
+2024-03-07 18:55:48.610 2620 INFO glance.common.wsgi [-] Started child 2750
+2024-03-07 18:55:48.633 2750 INFO eventlet.wsgi.server [-] (2750) wsgi starting up on http://0.0.0.0:9292
+2024-03-07 18:55:48.645 2620 INFO glance.common.wsgi [-] Started child 2751
+2024-03-07 18:55:48.705 2751 INFO eventlet.wsgi.server [-] (2751) wsgi starting up on http://0.0.0.0:9292

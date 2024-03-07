@@ -1,0 +1,10 @@
+2024-03-07 16:44:44.694 885 INFO nova.console.websocketproxy [-] WebSocket server settings:
+2024-03-07 16:44:44.701 885 INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+2024-03-07 16:44:44.702 885 INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+2024-03-07 16:44:44.703 885 INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+2024-03-07 16:44:44.705 885 INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
+2024-03-07 18:55:10.307 862 INFO nova.console.websocketproxy [-] WebSocket server settings:
+2024-03-07 18:55:10.325 862 INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+2024-03-07 18:55:10.326 862 INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+2024-03-07 18:55:10.327 862 INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+2024-03-07 18:55:10.328 862 INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None

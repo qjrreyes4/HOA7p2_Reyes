@@ -1,0 +1,79 @@
+Mar  7 16:44:02 server1 gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user qjrreyes4(uid=1000) by (uid=0)
+Mar  7 16:44:02 server1 systemd-logind[624]: New session 1 of user qjrreyes4.
+Mar  7 16:44:02 server1 systemd: pam_unix(systemd-user:session): session opened for user qjrreyes4(uid=1000) by (uid=0)
+Mar  7 16:44:04 server1 gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Mar  7 16:44:18 server1 gnome-keyring-daemon[1304]: The Secret Service was already initialized
+Mar  7 16:44:18 server1 gnome-keyring-daemon[1304]: The PKCS#11 component was already initialized
+Mar  7 16:44:18 server1 gnome-keyring-daemon[1304]: The SSH agent was already initialized
+Mar  7 16:44:34 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.47 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 16:44:39 server1 dbus-daemon[608]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 16:45:46 server1 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Mar  7 16:45:46 server1 pkexec[2857]: qjrreyes4: Executing command [USER=root] [TTY=unknown] [CWD=/home/qjrreyes4] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  7 16:50:31 server1 gdm-password]: gkr-pam: unlocked login keyring
+Mar  7 17:03:44 server1 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Mar  7 17:03:44 server1 pkexec[7149]: qjrreyes4: Executing command [USER=root] [TTY=unknown] [CWD=/home/qjrreyes4] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  7 18:54:33 server1 systemd-logind[619]: New seat seat0.
+Mar  7 18:54:33 server1 systemd-logind[619]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 18:54:33 server1 systemd-logind[619]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 18:54:33 server1 systemd-logind[619]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 18:54:34 server1 sshd[761]: Server listening on 0.0.0.0 port 22.
+Mar  7 18:54:34 server1 sshd[761]: Server listening on :: port 22.
+Mar  7 18:54:37 server1 gdm-autologin]: gkr-pam: no password is available for user
+Mar  7 18:54:38 server1 gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user qjrreyes4(uid=1000) by (uid=0)
+Mar  7 18:54:38 server1 systemd-logind[619]: New session 1 of user qjrreyes4.
+Mar  7 18:54:38 server1 systemd: pam_unix(systemd-user:session): session opened for user qjrreyes4(uid=1000) by (uid=0)
+Mar  7 18:54:39 server1 gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Mar  7 18:54:42 server1 gnome-keyring-daemon[1229]: The SSH agent was already initialized
+Mar  7 18:54:42 server1 gnome-keyring-daemon[1229]: The Secret Service was already initialized
+Mar  7 18:54:42 server1 gnome-keyring-daemon[1229]: The PKCS#11 component was already initialized
+Mar  7 18:55:01 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.46 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  7 18:55:14 server1 dbus-daemon[602]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 18:56:11 server1 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Mar  7 18:56:11 server1 pkexec[3107]: qjrreyes4: Executing command [USER=root] [TTY=unknown] [CWD=/home/qjrreyes4] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  7 19:04:01 server1 sshd[4918]: Connection closed by authenticating user qjrreyes4 192.168.254.112 port 50880 [preauth]
+Mar  7 19:04:02 server1 sshd[4920]: Connection closed by authenticating user qjrreyes4 192.168.254.112 port 50894 [preauth]
+Mar  7 19:04:03 server1 sshd[4926]: Accepted publickey for qjrreyes4 from 192.168.254.112 port 50900 ssh2: RSA SHA256:Tx5iQl9nNpuXaVmE/wVIvm6dL4MnUlT2lDyzexYKnIE
+Mar  7 19:04:03 server1 sshd[4926]: pam_unix(sshd:session): session opened for user qjrreyes4(uid=1000) by (uid=0)
+Mar  7 19:04:03 server1 systemd-logind[619]: New session 3 of user qjrreyes4.
+Mar  7 19:04:06 server1 sshd[5024]: Received disconnect from 192.168.254.112 port 50900:11: disconnected by user
+Mar  7 19:04:06 server1 sshd[5024]: Disconnected from user qjrreyes4 192.168.254.112 port 50900
+Mar  7 19:04:06 server1 sshd[4926]: pam_unix(sshd:session): session closed for user qjrreyes4
+Mar  7 19:04:06 server1 systemd-logind[619]: Session 3 logged out. Waiting for processes to exit.
+Mar  7 19:04:07 server1 systemd-logind[619]: Removed session 3.
+Mar  7 19:07:33 server1 sshd[5774]: Accepted publickey for qjrreyes4 from 192.168.254.112 port 34344 ssh2: RSA SHA256:P1aBamX4H7dsCnJ0GN49uF+zLUc1E6vPqOEY3vWy2TU
+Mar  7 19:07:33 server1 sshd[5774]: pam_unix(sshd:session): session opened for user qjrreyes4(uid=1000) by (uid=0)
+Mar  7 19:07:33 server1 systemd-logind[619]: New session 4 of user qjrreyes4.
+Mar  7 19:10:57 server1 sshd[5812]: Received disconnect from 192.168.254.112 port 34344:11: disconnected by user
+Mar  7 19:10:57 server1 sshd[5812]: Disconnected from user qjrreyes4 192.168.254.112 port 34344
+Mar  7 19:10:57 server1 sshd[5774]: pam_unix(sshd:session): session closed for user qjrreyes4
+Mar  7 19:10:57 server1 systemd-logind[619]: Session 4 logged out. Waiting for processes to exit.
+Mar  7 19:10:57 server1 systemd-logind[619]: Removed session 4.
+Mar  7 19:17:02 server1 CRON[7906]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  7 19:17:02 server1 CRON[7906]: pam_unix(cron:session): session closed for user root
+Mar  7 19:24:59 server1 sshd[9658]: Invalid user roy from 192.168.254.112 port 35326
+Mar  7 19:25:00 server1 sshd[9658]: Connection closed by invalid user roy 192.168.254.112 port 35326 [preauth]
+Mar  7 19:25:29 server1 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=qjrreyes4
+Mar  7 19:25:34 server1 gdm-password]: gkr-pam: unlocked login keyring
+Mar  7 19:29:00 server1 sshd[10612]: Invalid user roy from 192.168.254.112 port 52834
+Mar  7 19:29:00 server1 sshd[10612]: Connection closed by invalid user roy 192.168.254.112 port 52834 [preauth]
+Mar  7 19:30:01 server1 CRON[10846]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  7 19:30:01 server1 CRON[10846]: pam_unix(cron:session): session closed for user root
+Mar  7 19:30:03 server1 sshd[10848]: Accepted publickey for qjrreyes4 from 192.168.254.112 port 48270 ssh2: RSA SHA256:Tx5iQl9nNpuXaVmE/wVIvm6dL4MnUlT2lDyzexYKnIE
+Mar  7 19:30:03 server1 sshd[10848]: pam_unix(sshd:session): session opened for user qjrreyes4(uid=1000) by (uid=0)
+Mar  7 19:30:03 server1 systemd-logind[619]: New session 7 of user qjrreyes4.
+Mar  7 19:30:05 server1 sudo: pam_unix(sudo:auth): conversation failed
+Mar  7 19:30:05 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [qjrreyes4]
+Mar  7 19:30:05 server1 sudo: qjrreyes4 : a password is required ; TTY=pts/1 ; PWD=/home/qjrreyes4 ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-wvyotkqumekmvqadkurpsehdayvcjkmk ; /usr/bin/python3 /home/qjrreyes4/.ansible/tmp/ansible-tmp-1709811003.8943632-3018-113329253761460/AnsiballZ_setup.py'
+Mar  7 19:31:05 server1 sshd[10886]: Received disconnect from 192.168.254.112 port 48270:11: disconnected by user
+Mar  7 19:31:05 server1 sshd[10886]: Disconnected from user qjrreyes4 192.168.254.112 port 48270
+Mar  7 19:31:05 server1 sshd[10848]: pam_unix(sshd:session): session closed for user qjrreyes4
+Mar  7 19:31:05 server1 systemd-logind[619]: Session 7 logged out. Waiting for processes to exit.
+Mar  7 19:31:05 server1 systemd-logind[619]: Removed session 7.
+Mar  7 19:32:34 server1 sshd[11430]: Accepted publickey for qjrreyes4 from 192.168.254.112 port 37112 ssh2: RSA SHA256:Tx5iQl9nNpuXaVmE/wVIvm6dL4MnUlT2lDyzexYKnIE
+Mar  7 19:32:34 server1 sshd[11430]: pam_unix(sshd:session): session opened for user qjrreyes4(uid=1000) by (uid=0)
+Mar  7 19:32:34 server1 systemd-logind[619]: New session 8 of user qjrreyes4.
+Mar  7 19:32:37 server1 sudo: qjrreyes4 : TTY=pts/1 ; PWD=/home/qjrreyes4 ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-bmaicmlwcaahcveqkgcdepoztkvnpwcq ; /usr/bin/python3 /home/qjrreyes4/.ansible/tmp/ansible-tmp-1709811155.3811774-3179-167381546145489/AnsiballZ_setup.py'
+Mar  7 19:32:37 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by qjrreyes4(uid=1000)
+Mar  7 19:32:42 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 19:32:44 server1 sudo: qjrreyes4 : TTY=pts/1 ; PWD=/home/qjrreyes4 ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-vtqjfgnfajkqygfhbdavkqgoirlfuilt ; /usr/bin/python3 /home/qjrreyes4/.ansible/tmp/ansible-tmp-1709811163.1526384-3194-98040033783017/AnsiballZ_command.py'
+Mar  7 19:32:44 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by qjrreyes4(uid=1000)

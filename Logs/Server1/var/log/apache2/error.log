@@ -1,0 +1,4 @@
+[Thu Mar 07 16:44:00.687377 2024] [mpm_event:notice] [pid 1020:tid 139979556935552] AH00489: Apache/2.4.52 (Ubuntu) mod_wsgi/4.9.0 Python/3.10 configured -- resuming normal operations
+[Thu Mar 07 16:44:00.752253 2024] [core:notice] [pid 1020:tid 139979556935552] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 07 18:54:37.139730 2024] [mpm_event:notice] [pid 950:tid 140089677502336] AH00489: Apache/2.4.52 (Ubuntu) mod_wsgi/4.9.0 Python/3.10 configured -- resuming normal operations
+[Thu Mar 07 18:54:37.140979 2024] [core:notice] [pid 950:tid 140089677502336] AH00094: Command line: '/usr/sbin/apache2'

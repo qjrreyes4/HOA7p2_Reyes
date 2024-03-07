@@ -1,0 +1,1 @@
+Distribution failed: {{:shutdown, {:failed_to_start_child, :net_kernel, {:EXIT, :nodistribution}}}, {:child, :undefined, :net_sup_dynamic, {:erl_distribution, :start_link, [[:"rabbitmqcli-916-rabbit@server1", :shortnames, 15000], false, :net_sup_dynamic]}, :permanent, false, 1000, :supervisor, [:erl_distribution]}}

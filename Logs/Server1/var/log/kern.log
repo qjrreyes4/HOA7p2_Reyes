@@ -1,0 +1,618 @@
+Mar  7 16:44:06 server1 kernel: [   30.629011] audit: type=1400 audit(1709801046.643:64): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19457/usr/lib/snapd/snap-confine" pid=1267 comm="snap-confine" capability=12  capname="net_admin"
+Mar  7 16:44:15 server1 kernel: [   30.644048] audit: type=1400 audit(1709801046.659:65): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19457/usr/lib/snapd/snap-confine" pid=1267 comm="snap-confine" capability=38  capname="perfmon"
+Mar  7 16:44:17 server1 kernel: [   32.796927] loop14: detected capacity change from 0 to 8
+Mar  7 16:44:26 server1 kernel: [   41.666284] overlayfs: missing 'lowerdir'
+Mar  7 16:44:32 server1 kernel: [   47.568065] audit: type=1400 audit(1709801072.037:66): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19457/usr/lib/snapd/snap-confine" pid=1873 comm="snap-confine" capability=12  capname="net_admin"
+Mar  7 16:44:32 server1 kernel: [   47.568080] audit: type=1400 audit(1709801072.041:67): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19457/usr/lib/snapd/snap-confine" pid=1873 comm="snap-confine" capability=38  capname="perfmon"
+Mar  7 16:44:41 server1 kernel: [   57.502903] rfkill: input handler disabled
+Mar  7 16:44:54 server1 kernel: [   70.424621] audit: type=1400 audit(1709801094.897:68): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2397 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/chronyd"
+Mar  7 16:44:54 server1 kernel: [   70.428911] audit: type=1400 audit(1709801094.901:69): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2397 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/chronyd"
+Mar  7 16:44:54 server1 kernel: [   70.434301] audit: type=1400 audit(1709801094.901:70): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2397 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/cupsd"
+Mar  7 16:44:54 server1 kernel: [   70.444768] audit: type=1400 audit(1709801094.913:71): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2397 comm="ps" requested_mask="read" denied_mask="read" peer="libvirtd"
+Mar  7 16:44:54 server1 kernel: [   70.450979] audit: type=1400 audit(1709801094.921:72): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2397 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/cups-browsed"
+Mar  7 16:44:54 server1 kernel: [   70.493890] audit: type=1400 audit(1709801094.965:73): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2397 comm="ps" requested_mask="read" denied_mask="read" peer="snap.snapd-desktop-integration.snapd-desktop-integration"
+Mar  7 16:44:54 server1 kernel: [   70.496536] audit: type=1400 audit(1709801094.969:74): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2397 comm="ps" requested_mask="read" denied_mask="read" peer="snap.snapd-desktop-integration.snapd-desktop-integration"
+Mar  7 16:44:55 server1 kernel: [   71.185509] audit: type=1400 audit(1709801095.641:75): apparmor="STATUS" operation="profile_load" profile="snap.docker.dockerd" name="docker-default" pid=2415 comm="apparmor_parser"
+Mar  7 16:44:57 server1 kernel: [   73.030895] Initializing XFRM netlink socket
+Mar  7 16:54:35 server1 kernel: [  650.809811] hrtimer: interrupt took 23323860 ns
+Mar  7 18:54:33 server1 kernel: [    0.000000] Linux version 6.2.0-37-generic (buildd@bos03-amd64-055) (x86_64-linux-gnu-gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #38~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov  2 18:01:13 UTC 2 (Ubuntu 6.2.0-37.38~22.04.1-generic 6.2.16)
+Mar  7 18:54:33 server1 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-6.2.0-37-generic root=UUID=6990e70b-a9a0-4761-a34f-3cb5742c83ea ro quiet splash
+Mar  7 18:54:33 server1 kernel: [    0.000000] KERNEL supported cpus:
+Mar  7 18:54:33 server1 kernel: [    0.000000]   Intel GenuineIntel
+Mar  7 18:54:33 server1 kernel: [    0.000000]   AMD AuthenticAMD
+Mar  7 18:54:33 server1 kernel: [    0.000000]   Hygon HygonGenuine
+Mar  7 18:54:33 server1 kernel: [    0.000000]   Centaur CentaurHauls
+Mar  7 18:54:33 server1 kernel: [    0.000000]   zhaoxin   Shanghai  
+Mar  7 18:54:33 server1 kernel: [    0.000000] BIOS-provided physical RAM map:
+Mar  7 18:54:33 server1 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar  7 18:54:33 server1 kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar  7 18:54:33 server1 kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar  7 18:54:33 server1 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000dffeffff] usable
+Mar  7 18:54:33 server1 kernel: [    0.000000] BIOS-e820: [mem 0x00000000dfff0000-0x00000000dfffffff] ACPI data
+Mar  7 18:54:33 server1 kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Mar  7 18:54:33 server1 kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Mar  7 18:54:33 server1 kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Mar  7 18:54:33 server1 kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000011fffffff] usable
+Mar  7 18:54:33 server1 kernel: [    0.000000] NX (Execute Disable) protection: active
+Mar  7 18:54:33 server1 kernel: [    0.000000] SMBIOS 2.5 present.
+Mar  7 18:54:33 server1 kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Mar  7 18:54:33 server1 kernel: [    0.000000] Hypervisor detected: KVM
+Mar  7 18:54:33 server1 kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar  7 18:54:33 server1 kernel: [    0.000004] kvm-clock: using sched offset of 12703896440 cycles
+Mar  7 18:54:33 server1 kernel: [    0.000008] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Mar  7 18:54:33 server1 kernel: [    0.000013] tsc: Detected 2592.006 MHz processor
+Mar  7 18:54:33 server1 kernel: [    0.003660] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Mar  7 18:54:33 server1 kernel: [    0.003670] e820: remove [mem 0x000a0000-0x000fffff] usable
+Mar  7 18:54:33 server1 kernel: [    0.003679] last_pfn = 0x120000 max_arch_pfn = 0x400000000
+Mar  7 18:54:33 server1 kernel: [    0.003804] MTRRs disabled by BIOS
+Mar  7 18:54:33 server1 kernel: [    0.003810] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Mar  7 18:54:33 server1 kernel: [    0.003828] last_pfn = 0xdfff0 max_arch_pfn = 0x400000000
+Mar  7 18:54:33 server1 kernel: [    0.003917] found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+Mar  7 18:54:33 server1 kernel: [    0.004329] RAMDISK: [mem 0x2f22f000-0x3390efff]
+Mar  7 18:54:33 server1 kernel: [    0.004345] ACPI: Early table checksum verification disabled
+Mar  7 18:54:33 server1 kernel: [    0.004355] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Mar  7 18:54:33 server1 kernel: [    0.004363] ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Mar  7 18:54:33 server1 kernel: [    0.004375] ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Mar  7 18:54:33 server1 kernel: [    0.004386] ACPI: DSDT 0x00000000DFFF0620 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Mar  7 18:54:33 server1 kernel: [    0.004391] ACPI: FACS 0x00000000DFFF0200 000040
+Mar  7 18:54:33 server1 kernel: [    0.004396] ACPI: FACS 0x00000000DFFF0200 000040
+Mar  7 18:54:33 server1 kernel: [    0.004400] ACPI: APIC 0x00000000DFFF0240 000064 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Mar  7 18:54:33 server1 kernel: [    0.004406] ACPI: SSDT 0x00000000DFFF02B0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Mar  7 18:54:33 server1 kernel: [    0.004411] ACPI: Reserving FACP table memory at [mem 0xdfff00f0-0xdfff01e3]
+Mar  7 18:54:33 server1 kernel: [    0.004413] ACPI: Reserving DSDT table memory at [mem 0xdfff0620-0xdfff2972]
+Mar  7 18:54:33 server1 kernel: [    0.004415] ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+Mar  7 18:54:33 server1 kernel: [    0.004416] ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+Mar  7 18:54:33 server1 kernel: [    0.004418] ACPI: Reserving APIC table memory at [mem 0xdfff0240-0xdfff02a3]
+Mar  7 18:54:33 server1 kernel: [    0.004419] ACPI: Reserving SSDT table memory at [mem 0xdfff02b0-0xdfff061b]
+Mar  7 18:54:33 server1 kernel: [    0.006535] No NUMA configuration found
+Mar  7 18:54:33 server1 kernel: [    0.006537] Faking a node at [mem 0x0000000000000000-0x000000011fffffff]
+Mar  7 18:54:33 server1 kernel: [    0.006549] NODE_DATA(0) allocated [mem 0x11ffd1000-0x11fffbfff]
+Mar  7 18:54:33 server1 kernel: [    0.008377] Zone ranges:
+Mar  7 18:54:33 server1 kernel: [    0.008380]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Mar  7 18:54:33 server1 kernel: [    0.008383]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Mar  7 18:54:33 server1 kernel: [    0.008385]   Normal   [mem 0x0000000100000000-0x000000011fffffff]
+Mar  7 18:54:33 server1 kernel: [    0.008386]   Device   empty
+Mar  7 18:54:33 server1 kernel: [    0.008388] Movable zone start for each node
+Mar  7 18:54:33 server1 kernel: [    0.008390] Early memory node ranges
+Mar  7 18:54:33 server1 kernel: [    0.008391]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Mar  7 18:54:33 server1 kernel: [    0.008392]   node   0: [mem 0x0000000000100000-0x00000000dffeffff]
+Mar  7 18:54:33 server1 kernel: [    0.008394]   node   0: [mem 0x0000000100000000-0x000000011fffffff]
+Mar  7 18:54:33 server1 kernel: [    0.008396] Initmem setup node 0 [mem 0x0000000000001000-0x000000011fffffff]
+Mar  7 18:54:33 server1 kernel: [    0.008493] On node 0, zone DMA: 1 pages in unavailable ranges
+Mar  7 18:54:33 server1 kernel: [    0.010370] On node 0, zone DMA: 97 pages in unavailable ranges
+Mar  7 18:54:33 server1 kernel: [    0.469582] On node 0, zone Normal: 16 pages in unavailable ranges
+Mar  7 18:54:33 server1 kernel: [    0.473398] ACPI: PM-Timer IO Port: 0x4008
+Mar  7 18:54:33 server1 kernel: [    0.473931] IOAPIC[0]: apic_id 3, version 32, address 0xfec00000, GSI 0-23
+Mar  7 18:54:33 server1 kernel: [    0.473939] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Mar  7 18:54:33 server1 kernel: [    0.473942] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Mar  7 18:54:33 server1 kernel: [    0.473949] ACPI: Using ACPI (MADT) for SMP configuration information
+Mar  7 18:54:33 server1 kernel: [    0.474004] smpboot: Allowing 3 CPUs, 0 hotplug CPUs
+Mar  7 18:54:33 server1 kernel: [    0.474266] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Mar  7 18:54:33 server1 kernel: [    0.474270] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar  7 18:54:33 server1 kernel: [    0.474271] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar  7 18:54:33 server1 kernel: [    0.474272] PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar  7 18:54:33 server1 kernel: [    0.474274] PM: hibernation: Registered nosave memory: [mem 0xdfff0000-0xdfffffff]
+Mar  7 18:54:33 server1 kernel: [    0.474275] PM: hibernation: Registered nosave memory: [mem 0xe0000000-0xfebfffff]
+Mar  7 18:54:33 server1 kernel: [    0.474276] PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+Mar  7 18:54:33 server1 kernel: [    0.474276] PM: hibernation: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+Mar  7 18:54:33 server1 kernel: [    0.474277] PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Mar  7 18:54:33 server1 kernel: [    0.474278] PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfffbffff]
+Mar  7 18:54:33 server1 kernel: [    0.474279] PM: hibernation: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Mar  7 18:54:33 server1 kernel: [    0.474281] [mem 0xe0000000-0xfebfffff] available for PCI devices
+Mar  7 18:54:33 server1 kernel: [    0.474282] Booting paravirtualized kernel on KVM
+Mar  7 18:54:33 server1 kernel: [    0.474285] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Mar  7 18:54:33 server1 kernel: [    0.474293] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:3 nr_cpu_ids:3 nr_node_ids:1
+Mar  7 18:54:33 server1 kernel: [    0.488521] percpu: Embedded 62 pages/cpu s217088 r8192 d28672 u524288
+Mar  7 18:54:33 server1 kernel: [    0.488533] pcpu-alloc: s217088 r8192 d28672 u524288 alloc=1*2097152
+Mar  7 18:54:33 server1 kernel: [    0.488537] pcpu-alloc: [0] 0 1 2 - 
+Mar  7 18:54:33 server1 kernel: [    0.488760] kvm-guest: PV spinlocks enabled
+Mar  7 18:54:33 server1 kernel: [    0.488764] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    0.488775] Fallback order for Node 0: 0 
+Mar  7 18:54:33 server1 kernel: [    0.488778] Built 1 zonelists, mobility grouping on.  Total pages: 1031920
+Mar  7 18:54:33 server1 kernel: [    0.488780] Policy zone: Normal
+Mar  7 18:54:33 server1 kernel: [    0.488782] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.2.0-37-generic root=UUID=6990e70b-a9a0-4761-a34f-3cb5742c83ea ro quiet splash
+Mar  7 18:54:33 server1 kernel: [    0.488856] Unknown kernel command line parameters "splash BOOT_IMAGE=/boot/vmlinuz-6.2.0-37-generic", will be passed to user space.
+Mar  7 18:54:33 server1 kernel: [    0.488899] random: crng init done
+Mar  7 18:54:33 server1 kernel: [    0.517089] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    0.531160] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    0.531476] mem auto-init: stack:off, heap alloc:on, heap free:off
+Mar  7 18:54:33 server1 kernel: [    0.531483] software IO TLB: area num 4.
+Mar  7 18:54:33 server1 kernel: [    0.779014] Memory: 3919884K/4193848K available (20480K kernel code, 4153K rwdata, 12732K rodata, 4768K init, 17536K bss, 273704K reserved, 0K cma-reserved)
+Mar  7 18:54:33 server1 kernel: [    0.779900] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=3, Nodes=1
+Mar  7 18:54:33 server1 kernel: [    0.780035] Kernel/User page tables isolation: enabled
+Mar  7 18:54:33 server1 kernel: [    0.780474] ftrace: allocating 53440 entries in 209 pages
+Mar  7 18:54:33 server1 kernel: [    0.796226] ftrace: allocated 209 pages with 4 groups
+Mar  7 18:54:33 server1 kernel: [    0.799209] Dynamic Preempt: voluntary
+Mar  7 18:54:33 server1 kernel: [    0.799343] rcu: Preemptible hierarchical RCU implementation.
+Mar  7 18:54:33 server1 kernel: [    0.799345] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=3.
+Mar  7 18:54:33 server1 kernel: [    0.799347] 	Trampoline variant of Tasks RCU enabled.
+Mar  7 18:54:33 server1 kernel: [    0.799347] 	Rude variant of Tasks RCU enabled.
+Mar  7 18:54:33 server1 kernel: [    0.799348] 	Tracing variant of Tasks RCU enabled.
+Mar  7 18:54:33 server1 kernel: [    0.799348] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Mar  7 18:54:33 server1 kernel: [    0.799349] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=3
+Mar  7 18:54:33 server1 kernel: [    0.806619] NR_IRQS: 524544, nr_irqs: 448, preallocated irqs: 16
+Mar  7 18:54:33 server1 kernel: [    0.807337] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Mar  7 18:54:33 server1 kernel: [    0.893174] Console: colour VGA+ 80x25
+Mar  7 18:54:33 server1 kernel: [    0.893180] printk: console [tty0] enabled
+Mar  7 18:54:33 server1 kernel: [    0.893279] ACPI: Core revision 20221020
+Mar  7 18:54:33 server1 kernel: [    0.894692] APIC: Switch to symmetric I/O mode setup
+Mar  7 18:54:33 server1 kernel: [    0.928495] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Mar  7 18:54:33 server1 kernel: [    0.929085] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x255cbc978bf, max_idle_ns: 440795251759 ns
+Mar  7 18:54:33 server1 kernel: [    0.929095] Calibrating delay loop (skipped) preset value.. 5184.01 BogoMIPS (lpj=10368024)
+Mar  7 18:54:33 server1 kernel: [    0.933607] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Mar  7 18:54:33 server1 kernel: [    0.933610] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Mar  7 18:54:33 server1 kernel: [    0.933616] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Mar  7 18:54:33 server1 kernel: [    0.933618] Spectre V2 : Mitigation: Retpolines
+Mar  7 18:54:33 server1 kernel: [    0.933619] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Mar  7 18:54:33 server1 kernel: [    0.933620] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+Mar  7 18:54:33 server1 kernel: [    0.933621] RETBleed: WARNING: Spectre v2 mitigation leaves CPU vulnerable to RETBleed attacks, data leaks possible!
+Mar  7 18:54:33 server1 kernel: [    0.937100] RETBleed: Vulnerable
+Mar  7 18:54:33 server1 kernel: [    0.937104] Speculative Store Bypass: Vulnerable
+Mar  7 18:54:33 server1 kernel: [    0.937117] MDS: Mitigation: Clear CPU buffers
+Mar  7 18:54:33 server1 kernel: [    0.937118] MMIO Stale Data: Mitigation: Clear CPU buffers
+Mar  7 18:54:33 server1 kernel: [    0.937120] SRBDS: Unknown: Dependent on hypervisor status
+Mar  7 18:54:33 server1 kernel: [    0.937124] x86/fpu: x87 FPU will use FXSAVE
+Mar  7 18:54:33 server1 kernel: [    0.963874] Freeing SMP alternatives memory: 44K
+Mar  7 18:54:33 server1 kernel: [    0.963880] pid_max: default: 32768 minimum: 301
+Mar  7 18:54:33 server1 kernel: [    0.963982] LSM: initializing lsm=lockdown,capability,landlock,yama,integrity,apparmor
+Mar  7 18:54:33 server1 kernel: [    0.963995] landlock: Up and running.
+Mar  7 18:54:33 server1 kernel: [    0.963996] Yama: becoming mindful.
+Mar  7 18:54:33 server1 kernel: [    0.964367] AppArmor: AppArmor initialized
+Mar  7 18:54:33 server1 kernel: [    0.965487] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    0.965969] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    1.085274] APIC calibration not consistent with PM-Timer: 102ms instead of 100ms
+Mar  7 18:54:33 server1 kernel: [    1.085280] APIC delta adjusted to PM-Timer: 6378250 (6516381)
+Mar  7 18:54:33 server1 kernel: [    1.085885] smpboot: CPU0: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz (family: 0x6, model: 0x9e, stepping: 0xa)
+Mar  7 18:54:33 server1 kernel: [    1.087355] cblist_init_generic: Setting adjustable number of callback queues.
+Mar  7 18:54:33 server1 kernel: [    1.087357] cblist_init_generic: Setting shift to 2 and lim to 1.
+Mar  7 18:54:33 server1 kernel: [    1.087733] cblist_init_generic: Setting adjustable number of callback queues.
+Mar  7 18:54:33 server1 kernel: [    1.087735] cblist_init_generic: Setting shift to 2 and lim to 1.
+Mar  7 18:54:33 server1 kernel: [    1.087875] cblist_init_generic: Setting adjustable number of callback queues.
+Mar  7 18:54:33 server1 kernel: [    1.087877] cblist_init_generic: Setting shift to 2 and lim to 1.
+Mar  7 18:54:33 server1 kernel: [    1.088017] Performance Events: unsupported p6 CPU model 158 no PMU driver, software events only.
+Mar  7 18:54:33 server1 kernel: [    1.088038] signal: max sigframe size: 1440
+Mar  7 18:54:33 server1 kernel: [    1.088190] rcu: Hierarchical SRCU implementation.
+Mar  7 18:54:33 server1 kernel: [    1.088192] rcu: 	Max phase no-delay instances is 1000.
+Mar  7 18:54:33 server1 kernel: [    1.089091] NMI watchdog: Perf NMI watchdog permanently disabled
+Mar  7 18:54:33 server1 kernel: [    1.089466] smp: Bringing up secondary CPUs ...
+Mar  7 18:54:33 server1 kernel: [    1.090831] x86: Booting SMP configuration:
+Mar  7 18:54:33 server1 kernel: [    1.090833] .... node  #0, CPUs:      #1
+Mar  7 18:54:33 server1 kernel: [    1.097091] TSC synchronization [CPU#0 -> CPU#1]:
+Mar  7 18:54:33 server1 kernel: [    1.097091] Measured 76141 cycles TSC warp between CPUs, turning off TSC clock.
+Mar  7 18:54:33 server1 kernel: [    1.097091] tsc: Marking TSC unstable due to check_tsc_sync_source failed
+Mar  7 18:54:33 server1 kernel: [    1.102054]  #2
+Mar  7 18:54:33 server1 kernel: [    1.110180] smp: Brought up 1 node, 3 CPUs
+Mar  7 18:54:33 server1 kernel: [    1.110188] smpboot: Max logical packages: 1
+Mar  7 18:54:33 server1 kernel: [    1.110190] smpboot: Total of 3 processors activated (15552.03 BogoMIPS)
+Mar  7 18:54:33 server1 kernel: [    1.113954] devtmpfs: initialized
+Mar  7 18:54:33 server1 kernel: [    1.113954] x86/mm: Memory block size: 128MB
+Mar  7 18:54:33 server1 kernel: [    1.117506] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Mar  7 18:54:33 server1 kernel: [    1.117970] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    1.118031] pinctrl core: initialized pinctrl subsystem
+Mar  7 18:54:33 server1 kernel: [    1.119166] PM: RTC time: 10:54:19, date: 2024-03-07
+Mar  7 18:54:33 server1 kernel: [    1.134032] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Mar  7 18:54:33 server1 kernel: [    1.137417] DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+Mar  7 18:54:33 server1 kernel: [    1.137484] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Mar  7 18:54:33 server1 kernel: [    1.137548] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Mar  7 18:54:33 server1 kernel: [    1.137564] audit: initializing netlink subsys (disabled)
+Mar  7 18:54:33 server1 kernel: [    1.138112] audit: type=2000 audit(1709808874.249:1): state=initialized audit_enabled=0 res=1
+Mar  7 18:54:33 server1 kernel: [    1.138112] thermal_sys: Registered thermal governor 'fair_share'
+Mar  7 18:54:33 server1 kernel: [    1.138112] thermal_sys: Registered thermal governor 'bang_bang'
+Mar  7 18:54:33 server1 kernel: [    1.138112] thermal_sys: Registered thermal governor 'step_wise'
+Mar  7 18:54:33 server1 kernel: [    1.138112] thermal_sys: Registered thermal governor 'user_space'
+Mar  7 18:54:33 server1 kernel: [    1.138112] thermal_sys: Registered thermal governor 'power_allocator'
+Mar  7 18:54:33 server1 kernel: [    1.138112] EISA bus registered
+Mar  7 18:54:33 server1 kernel: [    1.138112] cpuidle: using governor ladder
+Mar  7 18:54:33 server1 kernel: [    1.138112] cpuidle: using governor menu
+Mar  7 18:54:33 server1 kernel: [    1.138117] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar  7 18:54:33 server1 kernel: [    1.139064] PCI: Using configuration type 1 for base access
+Mar  7 18:54:33 server1 kernel: [    1.139514] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Mar  7 18:54:33 server1 kernel: [    1.145091] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+Mar  7 18:54:33 server1 kernel: [    1.145091] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+Mar  7 18:54:33 server1 kernel: [    1.145091] ACPI: Added _OSI(Module Device)
+Mar  7 18:54:33 server1 kernel: [    1.145091] ACPI: Added _OSI(Processor Device)
+Mar  7 18:54:33 server1 kernel: [    1.145091] ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar  7 18:54:33 server1 kernel: [    1.145091] ACPI: Added _OSI(Processor Aggregator Device)
+Mar  7 18:54:33 server1 kernel: [    1.145091] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Mar  7 18:54:33 server1 kernel: [    1.145091] ACPI: Interpreter enabled
+Mar  7 18:54:33 server1 kernel: [    1.145091] ACPI: PM: (supports S0 S5)
+Mar  7 18:54:33 server1 kernel: [    1.145091] ACPI: Using IOAPIC for interrupt routing
+Mar  7 18:54:33 server1 kernel: [    1.145091] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar  7 18:54:33 server1 kernel: [    1.145091] PCI: Using E820 reservations for host bridge windows
+Mar  7 18:54:33 server1 kernel: [    1.145091] ACPI: Enabled 2 GPEs in block 00 to 07
+Mar  7 18:54:33 server1 kernel: [    1.151366] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar  7 18:54:33 server1 kernel: [    1.151383] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+Mar  7 18:54:33 server1 kernel: [    1.151386] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Mar  7 18:54:33 server1 kernel: [    1.152739] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Mar  7 18:54:33 server1 kernel: [    1.153622] PCI host bridge to bus 0000:00
+Mar  7 18:54:33 server1 kernel: [    1.153626] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Mar  7 18:54:33 server1 kernel: [    1.153629] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Mar  7 18:54:33 server1 kernel: [    1.153630] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Mar  7 18:54:33 server1 kernel: [    1.153632] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfdffffff window]
+Mar  7 18:54:33 server1 kernel: [    1.153634] pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar  7 18:54:33 server1 kernel: [    1.154331] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Mar  7 18:54:33 server1 kernel: [    1.157204] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Mar  7 18:54:33 server1 kernel: [    1.161864] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Mar  7 18:54:33 server1 kernel: [    1.163957] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Mar  7 18:54:33 server1 kernel: [    1.164830] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Mar  7 18:54:33 server1 kernel: [    1.164833] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Mar  7 18:54:33 server1 kernel: [    1.164834] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Mar  7 18:54:33 server1 kernel: [    1.164836] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Mar  7 18:54:33 server1 kernel: [    1.166118] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+Mar  7 18:54:33 server1 kernel: [    1.168404] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+Mar  7 18:54:33 server1 kernel: [    1.170066] pci 0000:00:02.0: reg 0x14: [mem 0xe0000000-0xe0ffffff pref]
+Mar  7 18:54:33 server1 kernel: [    1.172080] pci 0000:00:02.0: reg 0x18: [mem 0xf0000000-0xf01fffff]
+Mar  7 18:54:33 server1 kernel: [    1.180468] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Mar  7 18:54:33 server1 kernel: [    1.182001] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Mar  7 18:54:33 server1 kernel: [    1.182768] pci 0000:00:03.0: reg 0x10: [mem 0xf0200000-0xf021ffff]
+Mar  7 18:54:33 server1 kernel: [    1.183613] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+Mar  7 18:54:33 server1 kernel: [    1.187991] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Mar  7 18:54:33 server1 kernel: [    1.189532] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Mar  7 18:54:33 server1 kernel: [    1.190474] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Mar  7 18:54:33 server1 kernel: [    1.191233] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Mar  7 18:54:33 server1 kernel: [    1.195241] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Mar  7 18:54:33 server1 kernel: [    1.195955] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Mar  7 18:54:33 server1 kernel: [    1.196310] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Mar  7 18:54:33 server1 kernel: [    1.199359] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Mar  7 18:54:33 server1 kernel: [    1.200113] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Mar  7 18:54:33 server1 kernel: [    1.203903] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Mar  7 18:54:33 server1 kernel: [    1.207337] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Mar  7 18:54:33 server1 kernel: [    1.207397] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Mar  7 18:54:33 server1 kernel: [    1.209784] pci 0000:00:08.0: [8086:100e] type 00 class 0x020000
+Mar  7 18:54:33 server1 kernel: [    1.210556] pci 0000:00:08.0: reg 0x10: [mem 0xf0820000-0xf083ffff]
+Mar  7 18:54:33 server1 kernel: [    1.211416] pci 0000:00:08.0: reg 0x18: [io  0xd240-0xd247]
+Mar  7 18:54:33 server1 kernel: [    1.236263] pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320
+Mar  7 18:54:33 server1 kernel: [    1.237304] pci 0000:00:0b.0: reg 0x10: [mem 0xf0840000-0xf0840fff]
+Mar  7 18:54:33 server1 kernel: [    1.253098] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Mar  7 18:54:33 server1 kernel: [    1.253910] pci 0000:00:0d.0: reg 0x10: [io  0xd248-0xd24f]
+Mar  7 18:54:33 server1 kernel: [    1.254355] pci 0000:00:0d.0: reg 0x14: [io  0xd250-0xd253]
+Mar  7 18:54:33 server1 kernel: [    1.254791] pci 0000:00:0d.0: reg 0x18: [io  0xd258-0xd25f]
+Mar  7 18:54:33 server1 kernel: [    1.255267] pci 0000:00:0d.0: reg 0x1c: [io  0xd260-0xd263]
+Mar  7 18:54:33 server1 kernel: [    1.255725] pci 0000:00:0d.0: reg 0x20: [io  0xd270-0xd27f]
+Mar  7 18:54:33 server1 kernel: [    1.256159] pci 0000:00:0d.0: reg 0x24: [mem 0xf0842000-0xf0843fff]
+Mar  7 18:54:33 server1 kernel: [    1.446179] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+Mar  7 18:54:33 server1 kernel: [    1.447065] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Mar  7 18:54:33 server1 kernel: [    1.447391] ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+Mar  7 18:54:33 server1 kernel: [    1.447725] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Mar  7 18:54:33 server1 kernel: [    1.449315] iommu: Default domain type: Translated 
+Mar  7 18:54:33 server1 kernel: [    1.449318] iommu: DMA domain TLB invalidation policy: lazy mode 
+Mar  7 18:54:33 server1 kernel: [    1.449894] SCSI subsystem initialized
+Mar  7 18:54:33 server1 kernel: [    1.450233] libata version 3.00 loaded.
+Mar  7 18:54:33 server1 kernel: [    1.450233] ACPI: bus type USB registered
+Mar  7 18:54:33 server1 kernel: [    1.450233] usbcore: registered new interface driver usbfs
+Mar  7 18:54:33 server1 kernel: [    1.450233] usbcore: registered new interface driver hub
+Mar  7 18:54:33 server1 kernel: [    1.450233] usbcore: registered new device driver usb
+Mar  7 18:54:33 server1 kernel: [    1.450233] pps_core: LinuxPPS API ver. 1 registered
+Mar  7 18:54:33 server1 kernel: [    1.450233] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Mar  7 18:54:33 server1 kernel: [    1.450233] PTP clock support registered
+Mar  7 18:54:33 server1 kernel: [    1.450233] EDAC MC: Ver: 3.0.0
+Mar  7 18:54:33 server1 kernel: [    1.453948] NetLabel: Initializing
+Mar  7 18:54:33 server1 kernel: [    1.453951] NetLabel:  domain hash size = 128
+Mar  7 18:54:33 server1 kernel: [    1.453952] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Mar  7 18:54:33 server1 kernel: [    1.453976] NetLabel:  unlabeled traffic allowed by default
+Mar  7 18:54:33 server1 kernel: [    1.457178] mctp: management component transport protocol core
+Mar  7 18:54:33 server1 kernel: [    1.457181] NET: Registered PF_MCTP protocol family
+Mar  7 18:54:33 server1 kernel: [    1.457187] PCI: Using ACPI for IRQ routing
+Mar  7 18:54:33 server1 kernel: [    1.457188] PCI: pci_cache_line_size set to 64 bytes
+Mar  7 18:54:33 server1 kernel: [    1.458437] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Mar  7 18:54:33 server1 kernel: [    1.458441] e820: reserve RAM buffer [mem 0xdfff0000-0xdfffffff]
+Mar  7 18:54:33 server1 kernel: [    1.458628] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Mar  7 18:54:33 server1 kernel: [    1.458628] pci 0000:00:02.0: vgaarb: bridge control possible
+Mar  7 18:54:33 server1 kernel: [    1.458628] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Mar  7 18:54:33 server1 kernel: [    1.458628] vgaarb: loaded
+Mar  7 18:54:33 server1 kernel: [    1.462023] clocksource: Switched to clocksource kvm-clock
+Mar  7 18:54:33 server1 kernel: [    1.593875] VFS: Disk quotas dquot_6.6.0
+Mar  7 18:54:33 server1 kernel: [    1.593929] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar  7 18:54:33 server1 kernel: [    1.595188] AppArmor: AppArmor Filesystem Enabled
+Mar  7 18:54:33 server1 kernel: [    1.595228] pnp: PnP ACPI init
+Mar  7 18:54:33 server1 kernel: [    1.597924] pnp: PnP ACPI: found 2 devices
+Mar  7 18:54:33 server1 kernel: [    1.675010] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Mar  7 18:54:33 server1 kernel: [    1.675195] NET: Registered PF_INET protocol family
+Mar  7 18:54:33 server1 kernel: [    1.679574] IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    1.694032] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    1.696477] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    1.699686] TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    1.703038] TCP bind hash table entries: 32768 (order: 8, 1048576 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    1.703038] TCP: Hash tables configured (established 32768 bind 32768)
+Mar  7 18:54:33 server1 kernel: [    1.711917] MPTCP token hash table entries: 4096 (order: 4, 98304 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    1.712598] UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    1.713141] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Mar  7 18:54:33 server1 kernel: [    1.713211] NET: Registered PF_UNIX/PF_LOCAL protocol family
+Mar  7 18:54:33 server1 kernel: [    1.713221] NET: Registered PF_XDP protocol family
+Mar  7 18:54:33 server1 kernel: [    1.713235] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Mar  7 18:54:33 server1 kernel: [    1.713241] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Mar  7 18:54:33 server1 kernel: [    1.713244] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Mar  7 18:54:33 server1 kernel: [    1.713247] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfdffffff window]
+Mar  7 18:54:33 server1 kernel: [    1.713630] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Mar  7 18:54:33 server1 kernel: [    1.723176] PCI: CLS 0 bytes, default 64
+Mar  7 18:54:33 server1 kernel: [    1.723620] Trying to unpack rootfs image as initramfs...
+Mar  7 18:54:33 server1 kernel: [    1.730476] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Mar  7 18:54:33 server1 kernel: [    1.730481] software IO TLB: mapped [mem 0x00000000dbff0000-0x00000000dfff0000] (64MB)
+Mar  7 18:54:33 server1 kernel: [    1.730695] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Mar  7 18:54:33 server1 kernel: [    1.732735] Initialise system trusted keyrings
+Mar  7 18:54:33 server1 kernel: [    1.732777] Key type blacklist registered
+Mar  7 18:54:33 server1 kernel: [    1.734448] workingset: timestamp_bits=36 max_order=20 bucket_order=0
+Mar  7 18:54:33 server1 kernel: [    1.734553] zbud: loaded
+Mar  7 18:54:33 server1 kernel: [    1.735144] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Mar  7 18:54:33 server1 kernel: [    1.736914] fuse: init (API version 7.38)
+Mar  7 18:54:33 server1 kernel: [    1.739388] integrity: Platform Keyring initialized
+Mar  7 18:54:33 server1 kernel: [    1.739393] integrity: Machine keyring initialized
+Mar  7 18:54:33 server1 kernel: [    1.741591] Key type asymmetric registered
+Mar  7 18:54:33 server1 kernel: [    1.741591] Asymmetric key parser 'x509' registered
+Mar  7 18:54:33 server1 kernel: [    1.741591] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+Mar  7 18:54:33 server1 kernel: [    1.751524] io scheduler mq-deadline registered
+Mar  7 18:54:33 server1 kernel: [    1.755494] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Mar  7 18:54:33 server1 kernel: [    1.755921] ACPI: AC: AC Adapter [AC] (on-line)
+Mar  7 18:54:33 server1 kernel: [    1.756010] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar  7 18:54:33 server1 kernel: [    1.756946] ACPI: button: Power Button [PWRF]
+Mar  7 18:54:33 server1 kernel: [    1.757109] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Mar  7 18:54:33 server1 kernel: [    1.757176] ACPI: button: Sleep Button [SLPF]
+Mar  7 18:54:33 server1 kernel: [    1.759245] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Mar  7 18:54:33 server1 kernel: [    1.761328] ACPI: battery: Slot [BAT0] (battery present)
+Mar  7 18:54:33 server1 kernel: [    1.762384] Linux agpgart interface v0.103
+Mar  7 18:54:33 server1 kernel: [    1.775641] loop: module loaded
+Mar  7 18:54:33 server1 kernel: [    1.775641] ata_piix 0000:00:01.1: version 2.13
+Mar  7 18:54:33 server1 kernel: [    1.788668] scsi host0: ata_piix
+Mar  7 18:54:33 server1 kernel: [    1.791523] scsi host1: ata_piix
+Mar  7 18:54:33 server1 kernel: [    1.791628] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Mar  7 18:54:33 server1 kernel: [    1.791631] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Mar  7 18:54:33 server1 kernel: [    1.792020] tun: Universal TUN/TAP device driver, 1.6
+Mar  7 18:54:33 server1 kernel: [    1.792096] PPP generic driver version 2.4.2
+Mar  7 18:54:33 server1 kernel: [    1.794470] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Mar  7 18:54:33 server1 kernel: [    1.794535] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Mar  7 18:54:33 server1 kernel: [    1.795326] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Mar  7 18:54:33 server1 kernel: [    1.866515] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.02
+Mar  7 18:54:33 server1 kernel: [    1.866521] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar  7 18:54:33 server1 kernel: [    1.866523] usb usb1: Product: OHCI PCI host controller
+Mar  7 18:54:33 server1 kernel: [    1.866525] usb usb1: Manufacturer: Linux 6.2.0-37-generic ohci_hcd
+Mar  7 18:54:33 server1 kernel: [    1.866527] usb usb1: SerialNumber: 0000:00:06.0
+Mar  7 18:54:33 server1 kernel: [    1.866731] hub 1-0:1.0: USB hub found
+Mar  7 18:54:33 server1 kernel: [    1.866961] hub 1-0:1.0: 12 ports detected
+Mar  7 18:54:33 server1 kernel: [    1.870044] ehci-pci 0000:00:0b.0: EHCI Host Controller
+Mar  7 18:54:33 server1 kernel: [    1.870098] ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 2
+Mar  7 18:54:33 server1 kernel: [    1.870594] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Mar  7 18:54:33 server1 kernel: [    1.872393] ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0840000
+Mar  7 18:54:33 server1 kernel: [    1.876586] serio: i8042 KBD port at 0x60,0x64 irq 1
+Mar  7 18:54:33 server1 kernel: [    1.876596] serio: i8042 AUX port at 0x60,0x64 irq 12
+Mar  7 18:54:33 server1 kernel: [    1.876915] mousedev: PS/2 mouse device common for all mice
+Mar  7 18:54:33 server1 kernel: [    1.883085] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Mar  7 18:54:33 server1 kernel: [    1.883340] rtc_cmos rtc_cmos: registered as rtc0
+Mar  7 18:54:33 server1 kernel: [    1.884382] rtc_cmos rtc_cmos: setting system clock to 2024-03-07T10:54:20 UTC (1709808860)
+Mar  7 18:54:33 server1 kernel: [    1.884621] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Mar  7 18:54:33 server1 kernel: [    1.884635] i2c_dev: i2c /dev entries driver
+Mar  7 18:54:33 server1 kernel: [    1.884731] device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Mar  7 18:54:33 server1 kernel: [    1.884745] device-mapper: uevent: version 1.0.3
+Mar  7 18:54:33 server1 kernel: [    1.884784] device-mapper: ioctl: 4.47.0-ioctl (2022-07-28) initialised: dm-devel@redhat.com
+Mar  7 18:54:33 server1 kernel: [    1.884849] platform eisa.0: Probing EISA bus 0
+Mar  7 18:54:33 server1 kernel: [    1.884851] platform eisa.0: EISA: Cannot allocate resource for mainboard
+Mar  7 18:54:33 server1 kernel: [    1.884853] platform eisa.0: Cannot allocate resource for EISA slot 1
+Mar  7 18:54:33 server1 kernel: [    1.884855] platform eisa.0: Cannot allocate resource for EISA slot 2
+Mar  7 18:54:33 server1 kernel: [    1.884856] platform eisa.0: Cannot allocate resource for EISA slot 3
+Mar  7 18:54:33 server1 kernel: [    1.884857] platform eisa.0: Cannot allocate resource for EISA slot 4
+Mar  7 18:54:33 server1 kernel: [    1.884859] platform eisa.0: Cannot allocate resource for EISA slot 5
+Mar  7 18:54:33 server1 kernel: [    1.884860] platform eisa.0: Cannot allocate resource for EISA slot 6
+Mar  7 18:54:33 server1 kernel: [    1.884861] platform eisa.0: Cannot allocate resource for EISA slot 7
+Mar  7 18:54:33 server1 kernel: [    1.884863] platform eisa.0: Cannot allocate resource for EISA slot 8
+Mar  7 18:54:33 server1 kernel: [    1.884864] platform eisa.0: EISA: Detected 0 cards
+Mar  7 18:54:33 server1 kernel: [    1.884867] intel_pstate: CPU model not supported
+Mar  7 18:54:33 server1 kernel: [    1.886253] ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+Mar  7 18:54:33 server1 kernel: [    1.886311] ledtrig-cpu: registered to indicate activity on CPUs
+Mar  7 18:54:33 server1 kernel: [    1.886484] drop_monitor: Initializing network drop monitor service
+Mar  7 18:54:33 server1 kernel: [    1.886550] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.02
+Mar  7 18:54:33 server1 kernel: [    1.886554] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar  7 18:54:33 server1 kernel: [    1.886556] usb usb2: Product: EHCI Host Controller
+Mar  7 18:54:33 server1 kernel: [    1.886558] usb usb2: Manufacturer: Linux 6.2.0-37-generic ehci_hcd
+Mar  7 18:54:33 server1 kernel: [    1.886560] usb usb2: SerialNumber: 0000:00:0b.0
+Mar  7 18:54:33 server1 kernel: [    1.887785] hub 2-0:1.0: USB hub found
+Mar  7 18:54:33 server1 kernel: [    1.887796] hub 2-0:1.0: 12 ports detected
+Mar  7 18:54:33 server1 kernel: [    1.953544] NET: Registered PF_INET6 protocol family
+Mar  7 18:54:33 server1 kernel: [    2.007059] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Mar  7 18:54:33 server1 kernel: [    2.014768] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Mar  7 18:54:33 server1 kernel: [    2.045651] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Mar  7 18:54:33 server1 kernel: [    2.045657] cdrom: Uniform CD-ROM driver Revision: 3.20
+Mar  7 18:54:33 server1 kernel: [    2.076323] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Mar  7 18:54:33 server1 kernel: [    2.077341] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Mar  7 18:54:33 server1 kernel: [    2.265690] usb 1-1: new full-speed USB device number 2 using ohci-pci
+Mar  7 18:54:33 server1 kernel: [    2.604094] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Mar  7 18:54:33 server1 kernel: [    2.604101] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Mar  7 18:54:33 server1 kernel: [    2.604103] usb 1-1: Product: USB Tablet
+Mar  7 18:54:33 server1 kernel: [    2.604105] usb 1-1: Manufacturer: VirtualBox
+Mar  7 18:54:33 server1 kernel: [    4.409695] Freeing initrd memory: 72576K
+Mar  7 18:54:33 server1 kernel: [    4.443440] Segment Routing with IPv6
+Mar  7 18:54:33 server1 kernel: [    4.443460] In-situ OAM (IOAM) with IPv6
+Mar  7 18:54:33 server1 kernel: [    4.443492] NET: Registered PF_PACKET protocol family
+Mar  7 18:54:33 server1 kernel: [    4.444454] Key type dns_resolver registered
+Mar  7 18:54:33 server1 kernel: [    4.446537] IPI shorthand broadcast: enabled
+Mar  7 18:54:33 server1 kernel: [    4.449557] sched_clock: Marking stable (4328718045, 117441189)->(4490113743, -43954509)
+Mar  7 18:54:33 server1 kernel: [    4.451871] registered taskstats version 1
+Mar  7 18:54:33 server1 kernel: [    4.454789] Loading compiled-in X.509 certificates
+Mar  7 18:54:33 server1 kernel: [    4.456957] Loaded X.509 cert 'Build time autogenerated kernel key: 82b107d8f947716d21bc742503389c523b4ebc82'
+Mar  7 18:54:33 server1 kernel: [    4.457535] Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Mar  7 18:54:33 server1 kernel: [    4.458101] Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Mar  7 18:54:33 server1 kernel: [    4.458103] blacklist: Loading compiled-in revocation X.509 certificates
+Mar  7 18:54:33 server1 kernel: [    4.458122] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Mar  7 18:54:33 server1 kernel: [    4.458141] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+Mar  7 18:54:33 server1 kernel: [    4.458430] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+Mar  7 18:54:33 server1 kernel: [    4.458513] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+Mar  7 18:54:33 server1 kernel: [    4.458531] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+Mar  7 18:54:33 server1 kernel: [    4.458584] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+Mar  7 18:54:33 server1 kernel: [    4.458638] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+Mar  7 18:54:33 server1 kernel: [    4.458655] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+Mar  7 18:54:33 server1 kernel: [    4.465072] zswap: loaded using pool lzo/zbud
+Mar  7 18:54:33 server1 kernel: [    4.476428] Key type .fscrypt registered
+Mar  7 18:54:33 server1 kernel: [    4.476433] Key type fscrypt-provisioning registered
+Mar  7 18:54:33 server1 kernel: [    4.500362] Key type encrypted registered
+Mar  7 18:54:33 server1 kernel: [    4.500371] AppArmor: AppArmor sha1 policy hashing enabled
+Mar  7 18:54:33 server1 kernel: [    4.500384] ima: No TPM chip found, activating TPM-bypass!
+Mar  7 18:54:33 server1 kernel: [    4.500389] Loading compiled-in module X.509 certificates
+Mar  7 18:54:33 server1 kernel: [    4.500983] Loaded X.509 cert 'Build time autogenerated kernel key: 82b107d8f947716d21bc742503389c523b4ebc82'
+Mar  7 18:54:33 server1 kernel: [    4.500985] ima: Allocated hash algorithm: sha1
+Mar  7 18:54:33 server1 kernel: [    4.500993] ima: No architecture policies found
+Mar  7 18:54:33 server1 kernel: [    4.501004] evm: Initialising EVM extended attributes:
+Mar  7 18:54:33 server1 kernel: [    4.501005] evm: security.selinux
+Mar  7 18:54:33 server1 kernel: [    4.501007] evm: security.SMACK64
+Mar  7 18:54:33 server1 kernel: [    4.501007] evm: security.SMACK64EXEC
+Mar  7 18:54:33 server1 kernel: [    4.501008] evm: security.SMACK64TRANSMUTE
+Mar  7 18:54:33 server1 kernel: [    4.501009] evm: security.SMACK64MMAP
+Mar  7 18:54:33 server1 kernel: [    4.501010] evm: security.apparmor
+Mar  7 18:54:33 server1 kernel: [    4.501011] evm: security.ima
+Mar  7 18:54:33 server1 kernel: [    4.501011] evm: security.capability
+Mar  7 18:54:33 server1 kernel: [    4.501013] evm: HMAC attrs: 0x1
+Mar  7 18:54:33 server1 kernel: [    4.502469] PM:   Magic number: 0:457:931
+Mar  7 18:54:33 server1 kernel: [    4.504804] RAS: Correctable Errors collector initialized.
+Mar  7 18:54:33 server1 kernel: [    4.509772] Freeing unused decrypted memory: 2036K
+Mar  7 18:54:33 server1 kernel: [    4.510884] Freeing unused kernel image (initmem) memory: 4768K
+Mar  7 18:54:33 server1 kernel: [    4.525795] Write protecting the kernel read-only data: 34816k
+Mar  7 18:54:33 server1 kernel: [    4.527894] Freeing unused kernel image (rodata/data gap) memory: 1604K
+Mar  7 18:54:33 server1 kernel: [    4.602443] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Mar  7 18:54:33 server1 kernel: [    4.602448] x86/mm: Checking user space page tables
+Mar  7 18:54:33 server1 kernel: [    4.666028] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Mar  7 18:54:33 server1 kernel: [    4.666055] Run /init as init process
+Mar  7 18:54:33 server1 kernel: [    4.666057]   with arguments:
+Mar  7 18:54:33 server1 kernel: [    4.666058]     /init
+Mar  7 18:54:33 server1 kernel: [    4.666059]     splash
+Mar  7 18:54:33 server1 kernel: [    4.666060]   with environment:
+Mar  7 18:54:33 server1 kernel: [    4.666061]     HOME=/
+Mar  7 18:54:33 server1 kernel: [    4.666062]     TERM=linux
+Mar  7 18:54:33 server1 kernel: [    4.666063]     BOOT_IMAGE=/boot/vmlinuz-6.2.0-37-generic
+Mar  7 18:54:33 server1 kernel: [    4.949900] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Mar  7 18:54:33 server1 kernel: [    4.949992] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Mar  7 18:54:33 server1 kernel: [    4.962594] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Mar  7 18:54:33 server1 kernel: [    4.982455] e1000: Intel(R) PRO/1000 Network Driver
+Mar  7 18:54:33 server1 kernel: [    4.982459] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Mar  7 18:54:33 server1 kernel: [    5.006708] ahci 0000:00:0d.0: version 3.0
+Mar  7 18:54:33 server1 kernel: [    5.012505] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Mar  7 18:54:33 server1 kernel: [    5.014162] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Mar  7 18:54:33 server1 kernel: [    5.014167] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Mar  7 18:54:33 server1 kernel: [    5.037396] scsi host2: ahci
+Mar  7 18:54:33 server1 kernel: [    5.039678] ata3: SATA max UDMA/133 abar m8192@0xf0842000 port 0xf0842100 irq 21
+Mar  7 18:54:33 server1 kernel: [    5.050386] hid: raw HID events driver (C) Jiri Kosina
+Mar  7 18:54:33 server1 kernel: [    5.266055] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Mar  7 18:54:33 server1 kernel: [    5.357344] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Mar  7 18:54:33 server1 kernel: [    5.358237] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Mar  7 18:54:33 server1 kernel: [    5.358244] ata3.00: 167772032 sectors, multi 128: LBA48 NCQ (depth 32)
+Mar  7 18:54:33 server1 kernel: [    5.362167] ata3.00: configured for UDMA/133
+Mar  7 18:54:33 server1 kernel: [    5.362565] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Mar  7 18:54:33 server1 kernel: [    5.363152] sd 2:0:0:0: [sda] 167772032 512-byte logical blocks: (85.9 GB/80.0 GiB)
+Mar  7 18:54:33 server1 kernel: [    5.363165] sd 2:0:0:0: [sda] Write Protect is off
+Mar  7 18:54:33 server1 kernel: [    5.363168] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Mar  7 18:54:33 server1 kernel: [    5.363180] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Mar  7 18:54:33 server1 kernel: [    5.363196] sd 2:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+Mar  7 18:54:33 server1 kernel: [    5.363269] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Mar  7 18:54:33 server1 kernel: [    5.377092]  sda: sda1 sda2 sda3
+Mar  7 18:54:33 server1 kernel: [    5.379154] sd 2:0:0:0: [sda] Attached SCSI disk
+Mar  7 18:54:33 server1 kernel: [    5.394953] usbcore: registered new interface driver usbhid
+Mar  7 18:54:33 server1 kernel: [    5.394958] usbhid: USB HID core driver
+Mar  7 18:54:33 server1 kernel: [    5.405853] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Mar  7 18:54:33 server1 kernel: [    5.406864] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Mar  7 18:54:33 server1 kernel: [    5.968719] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:5c:ec:25
+Mar  7 18:54:33 server1 kernel: [    5.968733] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Mar  7 18:54:33 server1 kernel: [    6.851530] e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:f5:ec:b7
+Mar  7 18:54:33 server1 kernel: [    6.851539] e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+Mar  7 18:54:33 server1 kernel: [    6.855495] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Mar  7 18:54:33 server1 kernel: [    6.879982] e1000 0000:00:08.0 enp0s8: renamed from eth1
+Mar  7 18:54:33 server1 kernel: [    9.379086] EXT4-fs (sda3): mounted filesystem 6990e70b-a9a0-4761-a34f-3cb5742c83ea with ordered data mode. Quota mode: none.
+Mar  7 18:54:33 server1 kernel: [   10.854392] EXT4-fs (sda3): re-mounted 6990e70b-a9a0-4761-a34f-3cb5742c83ea. Quota mode: none.
+Mar  7 18:54:33 server1 kernel: [   10.903066] Adding 3991548k swap on /swapfile.  Priority:-2 extents:9 across:4302844k FS
+Mar  7 18:54:33 server1 kernel: [   10.987024] lp: driver loaded but no devices found
+Mar  7 18:54:33 server1 kernel: [   11.014757] ppdev: user-space parallel port driver
+Mar  7 18:54:33 server1 kernel: [   11.134870] ACPI: bus type drm_connector registered
+Mar  7 18:54:33 server1 kernel: [   11.163906] loop0: detected capacity change from 0 to 129944
+Mar  7 18:54:33 server1 kernel: [   11.166856] loop1: detected capacity change from 0 to 8
+Mar  7 18:54:33 server1 kernel: [   11.183156] loop2: detected capacity change from 0 to 129976
+Mar  7 18:54:33 server1 kernel: [   11.186550] loop3: detected capacity change from 0 to 151784
+Mar  7 18:54:33 server1 kernel: [   11.198689] loop4: detected capacity change from 0 to 151296
+Mar  7 18:54:33 server1 kernel: [   11.206025] loop5: detected capacity change from 0 to 264032
+Mar  7 18:54:33 server1 kernel: [   11.216920] loop6: detected capacity change from 0 to 485800
+Mar  7 18:54:33 server1 kernel: [   11.223751] loop7: detected capacity change from 0 to 716176
+Mar  7 18:54:33 server1 kernel: [   11.235221] loop8: detected capacity change from 0 to 994336
+Mar  7 18:54:33 server1 kernel: [   11.257145] loop10: detected capacity change from 0 to 1017816
+Mar  7 18:54:33 server1 kernel: [   11.259526] loop9: detected capacity change from 0 to 25240
+Mar  7 18:54:33 server1 kernel: [   11.276623] loop11: detected capacity change from 0 to 187776
+Mar  7 18:54:33 server1 kernel: [   11.286381] loop12: detected capacity change from 0 to 109072
+Mar  7 18:54:33 server1 kernel: [   11.292322] loop13: detected capacity change from 0 to 904
+Mar  7 18:54:33 server1 kernel: [   11.324557] vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+Mar  7 18:54:33 server1 kernel: [   11.325398] Console: switching to colour dummy device 80x25
+Mar  7 18:54:33 server1 kernel: [   11.327588] vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000f0000000 size is 2048 kiB
+Mar  7 18:54:33 server1 kernel: [   11.327605] vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000e0000000 size is 16384 kiB
+Mar  7 18:54:33 server1 kernel: [   11.327730] vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+Mar  7 18:54:33 server1 kernel: [   11.327789] vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, 
+Mar  7 18:54:33 server1 kernel: [   11.327792] vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+Mar  7 18:54:33 server1 kernel: [   11.328259] vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 16384 kB, FIFO = 2048 kB, surface = 507904 kB
+Mar  7 18:54:33 server1 kernel: [   11.328263] vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 0 kB, max mob pages = 0
+Mar  7 18:54:33 server1 kernel: [   11.328266] vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+Mar  7 18:54:33 server1 kernel: [   11.328267] vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+Mar  7 18:54:33 server1 kernel: [   11.328268] vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 16384 kiB
+Mar  7 18:54:33 server1 kernel: [   11.330408] vmwgfx 0000:00:02.0: [drm] Screen Object display unit initialized
+Mar  7 18:54:33 server1 kernel: [   11.331112] vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Mar  7 18:54:33 server1 kernel: [   11.331437] vmwgfx 0000:00:02.0: [drm] Using command buffers with DMA pool.
+Mar  7 18:54:33 server1 kernel: [   11.331449] vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+Mar  7 18:54:33 server1 kernel: [   11.331483] [drm:vmw_host_printf [vmwgfx]] *ERROR* Failed to send host log message.
+Mar  7 18:54:33 server1 kernel: [   11.333361] [drm] Initialized vmwgfx 2.20.0 20211206 for 0000:00:02.0 on minor 0
+Mar  7 18:54:33 server1 kernel: [   11.334399] fbcon: vmwgfxdrmfb (fb0) is primary device
+Mar  7 18:54:33 server1 kernel: [   11.557564] Console: switching to colour frame buffer device 160x50
+Mar  7 18:54:33 server1 kernel: [   11.652433] vmwgfx 0000:00:02.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+Mar  7 18:54:33 server1 kernel: [   11.797331] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Mar  7 18:54:33 server1 kernel: [   11.848654] Bridge firewalling registered
+Mar  7 18:54:33 server1 kernel: [   12.236271] vboxguest: host-version: 7.0.12r159484 0x8000000f
+Mar  7 18:54:33 server1 kernel: [   12.240386] vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+Mar  7 18:54:33 server1 kernel: [   12.303431] input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+Mar  7 18:54:33 server1 kernel: [   12.322269] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+Mar  7 18:54:33 server1 kernel: [   12.343035] cryptd: max_cpu_qlen set to 1000
+Mar  7 18:54:33 server1 kernel: [   12.436049] SSE version of gcm_enc/dec engaged.
+Mar  7 18:54:33 server1 kernel: [   13.598533] audit: type=1400 audit(1709808872.212:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=436 comm="apparmor_parser"
+Mar  7 18:54:33 server1 kernel: [   13.599419] audit: type=1400 audit(1709808872.212:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=437 comm="apparmor_parser"
+Mar  7 18:54:33 server1 kernel: [   13.599428] audit: type=1400 audit(1709808872.212:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=437 comm="apparmor_parser"
+Mar  7 18:54:33 server1 kernel: [   13.614895] audit: type=1400 audit(1709808872.228:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=446 comm="apparmor_parser"
+Mar  7 18:54:33 server1 kernel: [   13.614903] audit: type=1400 audit(1709808872.228:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=446 comm="apparmor_parser"
+Mar  7 18:54:33 server1 kernel: [   13.614906] audit: type=1400 audit(1709808872.228:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=446 comm="apparmor_parser"
+Mar  7 18:54:33 server1 kernel: [   13.625980] audit: type=1400 audit(1709808872.236:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="swtpm" pid=449 comm="apparmor_parser"
+Mar  7 18:54:33 server1 kernel: [   13.646862] audit: type=1400 audit(1709808872.260:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="tcpdump" pid=450 comm="apparmor_parser"
+Mar  7 18:54:33 server1 kernel: [   13.653072] audit: type=1400 audit(1709808872.264:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=438 comm="apparmor_parser"
+Mar  7 18:54:33 server1 kernel: [   13.653081] audit: type=1400 audit(1709808872.264:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=438 comm="apparmor_parser"
+Mar  7 18:54:33 server1 kernel: [   13.791527] snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+Mar  7 18:54:35 server1 kernel: [   16.767247] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  7 18:54:35 server1 kernel: [   16.795646] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Mar  7 18:54:35 server1 kernel: [   16.906676] e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  7 18:54:36 server1 kernel: [   17.823535] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready
+Mar  7 18:54:40 server1 kernel: [   22.319548] kauditd_printk_skb: 51 callbacks suppressed
+Mar  7 18:54:40 server1 kernel: [   22.319552] audit: type=1400 audit(1709808880.869:63): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19457/usr/lib/snapd/snap-confine" pid=1194 comm="snap-confine" capability=12  capname="net_admin"
+Mar  7 18:54:40 server1 kernel: [   22.319560] audit: type=1400 audit(1709808880.869:64): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19457/usr/lib/snapd/snap-confine" pid=1194 comm="snap-confine" capability=38  capname="perfmon"
+Mar  7 18:54:42 server1 kernel: [   24.087915] loop14: detected capacity change from 0 to 8
+Mar  7 18:54:57 server1 kernel: [   29.311803] overlayfs: missing 'lowerdir'
+Mar  7 18:55:06 server1 kernel: [   38.977211] rfkill: input handler disabled
+Mar  7 18:55:20 server1 kernel: [   52.293824] audit: type=1400 audit(1709808920.049:65): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2321 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/cupsd"
+Mar  7 18:55:20 server1 kernel: [   52.300047] audit: type=1400 audit(1709808920.057:66): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2321 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/chronyd"
+Mar  7 18:55:20 server1 kernel: [   52.301035] audit: type=1400 audit(1709808920.057:67): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2321 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/chronyd"
+Mar  7 18:55:20 server1 kernel: [   52.302504] audit: type=1400 audit(1709808920.061:68): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2321 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/cupsd"
+Mar  7 18:55:20 server1 kernel: [   52.304768] audit: type=1400 audit(1709808920.061:69): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2321 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/cups-browsed"
+Mar  7 18:55:20 server1 kernel: [   52.306680] audit: type=1400 audit(1709808920.061:70): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2321 comm="ps" requested_mask="read" denied_mask="read" peer="libvirtd"
+Mar  7 18:55:20 server1 kernel: [   52.352287] audit: type=1400 audit(1709808920.069:71): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2321 comm="ps" requested_mask="read" denied_mask="read" peer="snap.snapd-desktop-integration.snapd-desktop-integration"
+Mar  7 18:55:20 server1 kernel: [   52.444809] audit: type=1400 audit(1709808920.201:72): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=2321 comm="ps" requested_mask="read" denied_mask="read" peer="snap.snapd-desktop-integration.snapd-desktop-integration"
+Mar  7 18:55:20 server1 kernel: [   52.986203] audit: type=1400 audit(1709808920.697:73): apparmor="STATUS" operation="profile_load" profile="snap.docker.dockerd" name="docker-default" pid=2327 comm="apparmor_parser"
+Mar  7 18:55:23 server1 kernel: [   55.734775] Initializing XFRM netlink socket
+Mar  7 18:55:47 server1 kernel: [   79.779206] loop14: detected capacity change from 0 to 266416
+Mar  7 18:55:53 server1 kernel: [   85.427831] audit: type=1400 audit(1709808953.110:74): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/19457/usr/lib/snapd/snap-confine" pid=2822 comm="apparmor_parser"
+Mar  7 18:55:53 server1 kernel: [   85.427845] audit: type=1400 audit(1709808953.110:75): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/19457/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2822 comm="apparmor_parser"
+Mar  7 18:55:53 server1 kernel: [   85.718077] audit: type=1400 audit(1709808953.462:76): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.docker" pid=2824 comm="apparmor_parser"
+Mar  7 18:55:53 server1 kernel: [   86.144990] audit: type=1400 audit(1709808953.658:77): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.docker.compose" pid=2825 comm="apparmor_parser"
+Mar  7 18:55:54 server1 kernel: [   86.607436] audit: type=1400 audit(1709808953.962:78): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.docker.docker" pid=2826 comm="apparmor_parser"
+Mar  7 18:55:57 server1 kernel: [   90.183141] audit: type=1400 audit(1709808957.534:79): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.docker.dockerd" pid=2827 comm="apparmor_parser"
+Mar  7 18:55:58 server1 kernel: [   90.562072] audit: type=1400 audit(1709808958.322:80): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.docker.help" pid=2829 comm="apparmor_parser"
+Mar  7 18:55:58 server1 kernel: [   91.226243] audit: type=1400 audit(1709808958.702:81): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.docker.hook.configure" pid=2833 comm="apparmor_parser"
+Mar  7 18:55:59 server1 kernel: [   91.723537] audit: type=1400 audit(1709808959.262:82): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.docker.hook.connect-plug-graphics-core22" pid=2842 comm="apparmor_parser"
+Mar  7 18:56:00 server1 kernel: [   92.200907] audit: type=1400 audit(1709808959.542:83): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.docker.hook.install" pid=2843 comm="apparmor_parser"
+Mar  7 18:56:00 server1 kernel: [   92.759357] audit: type=1400 audit(1709808960.519:84): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.docker.hook.post-refresh" pid=2844 comm="apparmor_parser"
+Mar  7 18:56:00 server1 kernel: [   93.144424] audit: type=1400 audit(1709808960.903:85): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.docker.nvidia-container-toolkit" pid=2845 comm="apparmor_parser"
+Mar  7 18:56:06 server1 kernel: [   98.859309] overlayfs: missing 'lowerdir'
+Mar  7 18:56:06 server1 kernel: [   98.944273] audit: type=1400 audit(1709808966.705:86): apparmor="DENIED" operation="capable" class="cap" profile="snap.docker.hook.configure" pid=3010 comm="configure" capability=1  capname="dac_override"
+Mar  7 18:56:15 server1 kernel: [  107.892662] audit: type=1400 audit(1709808975.656:87): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=3141 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/cupsd"
+Mar  7 18:56:15 server1 kernel: [  107.893491] audit: type=1400 audit(1709808975.656:88): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=3141 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/chronyd"
+Mar  7 18:56:15 server1 kernel: [  107.893961] audit: type=1400 audit(1709808975.656:89): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=3141 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/chronyd"
+Mar  7 18:56:15 server1 kernel: [  107.895045] audit: type=1400 audit(1709808975.660:90): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=3141 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/cupsd"
+Mar  7 18:56:15 server1 kernel: [  107.895714] audit: type=1400 audit(1709808975.660:91): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=3141 comm="ps" requested_mask="read" denied_mask="read" peer="/usr/sbin/cups-browsed"
+Mar  7 18:56:15 server1 kernel: [  107.896610] audit: type=1400 audit(1709808975.660:92): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=3141 comm="ps" requested_mask="read" denied_mask="read" peer="libvirtd"
+Mar  7 18:56:15 server1 kernel: [  107.910683] audit: type=1400 audit(1709808975.676:93): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=3141 comm="ps" requested_mask="read" denied_mask="read" peer="snap.snapd-desktop-integration.snapd-desktop-integration"
+Mar  7 18:56:15 server1 kernel: [  107.913908] audit: type=1400 audit(1709808975.676:94): apparmor="DENIED" operation="ptrace" class="ptrace" profile="snap.docker.dockerd" pid=3141 comm="ps" requested_mask="read" denied_mask="read" peer="snap.snapd-desktop-integration.snapd-desktop-integration"
+Mar  7 18:56:15 server1 kernel: [  108.081987] audit: type=1400 audit(1709808975.844:95): apparmor="STATUS" operation="profile_replace" profile="snap.docker.dockerd" name="docker-default" pid=3143 comm="apparmor_parser"
+Mar  7 18:58:00 server1 kernel: [  212.273045] hrtimer: interrupt took 14375915 ns

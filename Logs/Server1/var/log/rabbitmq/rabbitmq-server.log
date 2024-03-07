@@ -1,0 +1,96 @@
+2023-12-09 19:30:58.060638+08:00 [info] <0.228.0> Feature flags: list of feature flags found:
+2023-12-09 19:30:58.075154+08:00 [info] <0.228.0> Feature flags:   [ ] implicit_default_bindings
+2023-12-09 19:30:58.075229+08:00 [info] <0.228.0> Feature flags:   [ ] maintenance_mode_status
+2023-12-09 19:30:58.075257+08:00 [info] <0.228.0> Feature flags:   [ ] quorum_queue
+2023-12-09 19:30:58.075339+08:00 [info] <0.228.0> Feature flags:   [ ] stream_queue
+2023-12-09 19:30:58.075370+08:00 [info] <0.228.0> Feature flags:   [ ] user_limits
+2023-12-09 19:30:58.075387+08:00 [info] <0.228.0> Feature flags:   [ ] virtual_host_metadata
+2023-12-09 19:30:58.075410+08:00 [info] <0.228.0> Feature flags: feature flag states written to disk: yes
+2023-12-09 19:30:58.564311+08:00 [noti] <0.44.0> Application syslog exited with reason: stopped
+2023-12-09 19:30:58.564670+08:00 [noti] <0.228.0> Logging: switching to configured handler(s); following messages may not be visible in this log output
+
+  ##  ##      RabbitMQ 3.9.13
+  ##  ##
+  ##########  Copyright (c) 2007-2022 VMware, Inc. or its affiliates.
+  ######  ##
+  ##########  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+
+  Erlang:      24.2.1 [jit]
+  TLS Library: OpenSSL - OpenSSL 3.0.2 15 Mar 2022
+
+  Doc guides:  https://rabbitmq.com/documentation.html
+  Support:     https://rabbitmq.com/contact.html
+  Tutorials:   https://rabbitmq.com/getstarted.html
+  Monitoring:  https://rabbitmq.com/monitoring.html
+
+  Logs: /var/log/rabbitmq/rabbit@server1.log
+        /var/log/rabbitmq/rabbit@server1_upgrade.log
+        <stdout>
+
+  Config file(s): (none)
+
+  Starting broker... completed with 0 plugins.
+2024-03-07 16:44:52.485280+08:00 [info] <0.228.0> Feature flags: list of feature flags found:
+2024-03-07 16:44:52.569871+08:00 [info] <0.228.0> Feature flags:   [x] implicit_default_bindings
+2024-03-07 16:44:52.570024+08:00 [info] <0.228.0> Feature flags:   [x] maintenance_mode_status
+2024-03-07 16:44:52.570065+08:00 [info] <0.228.0> Feature flags:   [x] quorum_queue
+2024-03-07 16:44:52.572774+08:00 [info] <0.228.0> Feature flags:   [x] stream_queue
+2024-03-07 16:44:52.572885+08:00 [info] <0.228.0> Feature flags:   [x] user_limits
+2024-03-07 16:44:52.572908+08:00 [info] <0.228.0> Feature flags:   [x] virtual_host_metadata
+2024-03-07 16:44:52.572934+08:00 [info] <0.228.0> Feature flags: feature flag states written to disk: yes
+2024-03-07 16:44:56.390558+08:00 [noti] <0.44.0> Application syslog exited with reason: stopped
+2024-03-07 16:44:56.391102+08:00 [noti] <0.228.0> Logging: switching to configured handler(s); following messages may not be visible in this log output
+
+  ##  ##      RabbitMQ 3.9.13
+  ##  ##
+  ##########  Copyright (c) 2007-2022 VMware, Inc. or its affiliates.
+  ######  ##
+  ##########  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+
+  Erlang:      24.2.1 [jit]
+  TLS Library: OpenSSL - OpenSSL 3.0.2 15 Mar 2022
+
+  Doc guides:  https://rabbitmq.com/documentation.html
+  Support:     https://rabbitmq.com/contact.html
+  Tutorials:   https://rabbitmq.com/getstarted.html
+  Monitoring:  https://rabbitmq.com/monitoring.html
+
+  Logs: /var/log/rabbitmq/rabbit@server1.log
+        /var/log/rabbitmq/rabbit@server1_upgrade.log
+        <stdout>
+
+  Config file(s): (none)
+
+  Starting broker... completed with 0 plugins.
+2024-03-07 18:55:22.977931+08:00 [info] <0.228.0> Feature flags: list of feature flags found:
+2024-03-07 18:55:23.377146+08:00 [info] <0.228.0> Feature flags:   [x] implicit_default_bindings
+2024-03-07 18:55:23.377264+08:00 [info] <0.228.0> Feature flags:   [x] maintenance_mode_status
+2024-03-07 18:55:23.377323+08:00 [info] <0.228.0> Feature flags:   [x] quorum_queue
+2024-03-07 18:55:23.377985+08:00 [info] <0.228.0> Feature flags:   [x] stream_queue
+2024-03-07 18:55:23.378053+08:00 [info] <0.228.0> Feature flags:   [x] user_limits
+2024-03-07 18:55:23.378075+08:00 [info] <0.228.0> Feature flags:   [x] virtual_host_metadata
+2024-03-07 18:55:23.378100+08:00 [info] <0.228.0> Feature flags: feature flag states written to disk: yes
+2024-03-07 18:55:29.233573+08:00 [noti] <0.44.0> Application syslog exited with reason: stopped
+2024-03-07 18:55:29.234061+08:00 [noti] <0.228.0> Logging: switching to configured handler(s); following messages may not be visible in this log output
+
+  ##  ##      RabbitMQ 3.9.13
+  ##  ##
+  ##########  Copyright (c) 2007-2022 VMware, Inc. or its affiliates.
+  ######  ##
+  ##########  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+
+  Erlang:      24.2.1 [jit]
+  TLS Library: OpenSSL - OpenSSL 3.0.2 15 Mar 2022
+
+  Doc guides:  https://rabbitmq.com/documentation.html
+  Support:     https://rabbitmq.com/contact.html
+  Tutorials:   https://rabbitmq.com/getstarted.html
+  Monitoring:  https://rabbitmq.com/monitoring.html
+
+  Logs: /var/log/rabbitmq/rabbit@server1.log
+        /var/log/rabbitmq/rabbit@server1_upgrade.log
+        <stdout>
+
+  Config file(s): (none)
+
+  Starting broker... completed with 0 plugins.

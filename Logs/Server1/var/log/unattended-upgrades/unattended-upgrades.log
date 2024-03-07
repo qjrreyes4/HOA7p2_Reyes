@@ -1,0 +1,6 @@
+2024-03-07 16:44:32,455 INFO Starting unattended upgrades script
+2024-03-07 16:44:32,489 INFO Allowed origins are: o=Ubuntu,a=jammy, o=Ubuntu,a=jammy-security, o=UbuntuESMApps,a=jammy-apps-security, o=UbuntuESM,a=jammy-infra-security
+2024-03-07 16:44:32,489 INFO Initial blacklist: 
+2024-03-07 16:44:32,490 INFO Initial whitelist (not strict): 
+2024-03-07 16:44:58,814 ERROR An error occurred: 404  Not Found [IP: 202.79.180.254 80]
+2024-03-07 16:44:58,827 ERROR The URI http://security.ubuntu.com/ubuntu/pool/main/g/glibc/libc6-dbg_2.35-0ubuntu3.5_amd64.deb failed to download, aborting

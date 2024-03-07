@@ -1,0 +1,12 @@
+---
+- name: Collect Log Files
+  hosts: Server1
+  become: true
+  tasks:
+    - name: Fetch Log Files
+      shell: tar -czf /tmp/logs.tar.gz /var/log/
+    - name: Transfer Log File to Manage Node
+      fetch:
+        src: /tmp/logs.tar.gz
+        dest: ~/HOA7p2_Reyes/Logs/Server1/
+        flat: yes
